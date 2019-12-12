@@ -1,0 +1,2 @@
+nvidia-cuda-toolkit # Required for CUDA
+trash-cli           # Send files to trash from command line

@@ -1,6 +1,0 @@
-build-essential     # Compilers etc
-libpython3-dev      # Development files for python3
-mailutils           # Send mail from the command line
-nvidia-cuda-toolkit # Required for CUDA
-python3-venv        # Virtual environments for python3
-trash-cli           # Send files to trash from command line

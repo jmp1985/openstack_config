@@ -12,7 +12,7 @@ sudo apt install \
   libpython3-dev \
   python3-venv \
   trash-cli \
-  tightvncserver \
+  tigervncserver-standalone \
   ubuntu-desktop
 
 # Remove unused packages

@@ -14,6 +14,16 @@ sudo apt install -y \
   trash-cli \
   tigervnc-standalone-server
 
+# Install minimal desktop for VNC
+sudo apt install -y \
+  eog \
+  gnome-panel \
+  gnome-terminal \
+  nautilus \
+  ubuntu-artwork \
+  ubuntu-session \
+  ubuntu-settings
+
 # Remove unused packages
 sudo apt autoremove -y
 

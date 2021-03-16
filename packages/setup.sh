@@ -9,8 +9,8 @@ sudo apt install -y \
   build-essential \
   libboost-dev \
   libfftw3-dev \
-  libpython3-dev \
-  python3-venv \
+  libpython3.8-dev \
+  python3.8-venv \
   trash-cli \
   tigervnc-standalone-server
 
@@ -23,6 +23,12 @@ sudo apt install -y \
   ubuntu-artwork \
   ubuntu-session \
   ubuntu-settings
+
+# Install stuff for RDP
+sudo apt install xrdp
+sudo adduser xrdp ssl-cert  dp
+sudo ufw allow 3389/tcp
+sudo /etc/init.d/xrdp restart
 
 # Remove unused packages
 sudo apt autoremove -y
